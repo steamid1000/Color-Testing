@@ -56,7 +56,7 @@ int main()
 
 	sf::Font font;
 
-	const std::string file = "Res/times.ttf";
+	const std::string file = "times.ttf";
 	sf::Clock Clock;
 	sf::Time dt;
 	float seconds;
