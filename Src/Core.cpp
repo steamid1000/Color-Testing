@@ -55,8 +55,8 @@ int main()
 	sf::Vector2i df;
 
 	sf::Font font;
-
-	const std::string file = "times.ttf";
+	 
+	const std::string file = "Src/times.ttf"; //If you are running the program directly from the file explorer instead of visual studio then copy the .ttf file and change this as well to "times.ttf"
 	sf::Clock Clock;
 	sf::Time dt;
 	float seconds;
@@ -114,7 +114,7 @@ int main()
 		win.display();
 
 
-		count.setString("Total Processing: " + std::to_string(skips));
+		count.setString("Total Processed: " + std::to_string(skips));
 		current.setString("Currently Processing: " + std::to_string(curr));
 
 		logs.clear();
