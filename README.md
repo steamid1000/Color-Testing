@@ -5,7 +5,7 @@ Note:
   1) The dll files are in the "Library Files.rar" file extract them in the build folder after compiling the code in visual studio, both debug as well as release
   dlls are present so extract according to which build you choose
   
-  2) Also the font works only when you launch from the visual studio and not from the file explorer, this will be fixed soon
+  2) Also the font works only when you launch from the visual studio and not from the file explorer, for this you can just drag the font file from the 'Src' folder to the build folder
  
  Thank you.
  
